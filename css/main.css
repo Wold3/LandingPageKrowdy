@@ -1,6 +1,25 @@
 
-/*HOME*/
-/*HEADER*/
+
+.banner {
+	height: 540px;
+}
+
+.banner h2 p {
+	text-indent: -1000;
+}
+.banner h1 {
+
+		height: 84px;	
+		width: 672px;
+		color: #FFFFFF;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 43px;
+		line-height: 53px;
+		text-align: center;
+		margin:0 auto;
+}
+
 .notify{
     background: linear-gradient(180deg, #FFA508 0%, #FF8B08 100%);
     text-align: center;
@@ -13,5 +32,9 @@
     text-decoration: underline;
 }
 .banner{
-
-background: url(https://i0.wp.com/www.tomosygrapas.com/wp-content/uploads/2017/01/fullmetal-alchemist-portada.jpg)}
+	background-image: url('../img/Bitmap.png'); 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
+}

@@ -1,0 +1,155 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  [class^="g"] {
+    display: inline;
+    float: left;
+    margin: 10px 1%;
+  }
+  
+  .container .g1 {
+    width: 6.31667%;
+  }
+  .container .g2 {
+    width: 14.63333%;
+  }
+  .container .g3 {
+    width: 22.95%;
+  }
+  .container .g4 {
+    width: 31.26667%;
+  }
+  .container .g5 {
+    width: 39.58333%;
+  }
+  .container .g6 {
+    width: 47.9%;
+  }
+  .container .g7 {
+    width: 56.21667%;
+  }
+  .container .g8 {
+    width: 64.53333%;
+  }
+  .container .g9 {
+    width: 72.85%;
+  }
+  .container .g10 {
+    width: 81.16667%;
+  }
+  .container .g11 {
+    width: 89.48333%;
+  }
+  .container .g12 {
+    width: 97.8%;
+  }
+  
+  .container:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  
+  .row:before,
+  .row:after {
+    content: " ";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  
+  .row:after {
+    clear: both;
+  }
+  
+  .row {
+    zoom: 1;
+  }
+  
+  .clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  
+  @media (max-width: 980px) {
+    .container {
+      max-width: 85%;
+    }
+  }
+  @media (max-width: 800px) {
+    .g1 {
+      width: 4.81667%;
+    }
+  
+    .g2 {
+      width: 13.13333%;
+    }
+  
+    .g3 {
+      width: 21.45%;
+    }
+  
+    .g4 {
+      width: 29.76667%;
+    }
+  
+    .g5 {
+      width: 38.08333%;
+    }
+  
+    .g6 {
+      width: 46.4%;
+    }
+  
+    .g7 {
+      width: 54.71667%;
+    }
+  
+    .g8 {
+      width: 63.03333%;
+    }
+  
+    .g9 {
+      width: 71.35%;
+    }
+  
+    .g10 {
+      width: 79.66667%;
+    }
+  
+    .g11 {
+      width: 87.98333%;
+    }
+  
+    .g12 {
+      width: 96.3%;
+    }
+  }
+  @media (max-width: 480px) {
+    .container {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    [class^="g"] {
+      width: 100% !important;
+      float: none !important;
+      margin: 0;
+      margin: 0 0 0 0 !important;
+    }
+  }

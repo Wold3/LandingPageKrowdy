@@ -1,7 +1,30 @@
+/* SECCION DE NOTIFICACIONES */
 
 
+h3 {
+		color: #7F7F7F;
+		font-family: Montserrat;
+		font-size: 21px;
+		font-weight: 300;
+		line-height: 35px;
+		text-align: center;
+}
+
+.notify{
+    background: linear-gradient(180deg, #FFA508 0%, #FF8B08 100%);
+    text-align: center;
+    height: 40px;
+}
+.notify p {
+    color:#fff;
+}
+.notify p a{
+    color: #000;
+    text-decoration: underline;
+}
+/* SECCION BANNER */
 .banner {
-	height: 540px;
+	height: 450px;
 }
 
 .banner h2 p {
@@ -13,28 +36,28 @@
 		width: 672px;
 		color: #FFFFFF;
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 400;
+		font-weight: 300;
 		font-size: 43px;
 		line-height: 53px;
 		text-align: center;
 		margin:0 auto;
 }
 
-.notify{
-    background: linear-gradient(180deg, #FFA508 0%, #FF8B08 100%);
-    text-align: center;
-}
-.notify p {
-    color:#fff;
-}
-.notify p a{
-    color: #000;
-    text-decoration: underline;
-}
+
 .banner{
 	background-image: url('../img/Bitmap.png'); 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
  	 background-size: cover;
+}
+
+.description .container {
+
+}
+
+.description h3 {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 2.5rem;
 }

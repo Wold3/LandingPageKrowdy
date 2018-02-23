@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>youtube_over</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-98.8%" y="-58.8%" width="297.5%" height="297.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="16" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.149654665 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-762.000000, -166.000000)">
+        <g id="youtube_over" transform="translate(782.000000, 170.000000)">
+            <g id="Oval-4-Copy-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FF8B08" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M29.15,14.3186603 C28.6075,13.3582775 28.01875,13.1816268 26.82,13.1144498 C25.6225,13.0335885 22.61125,13 20.0025,13 C17.38875,13 14.37625,13.0335885 13.18,13.1132057 C11.98375,13.1816268 11.39375,13.3570335 10.84625,14.3186603 C10.2875,15.277799 10,16.9298565 10,19.8383732 C10,19.8408612 10,19.8421053 10,19.8421053 C10,19.8445933 10,19.8458373 10,19.8458373 L10,19.8483254 C10,22.7444019 10.2875,24.4088995 10.84625,25.3580861 C11.39375,26.3184689 11.9825,26.4926316 13.17875,26.5734928 C14.37625,26.6431579 17.38875,26.6842105 20.0025,26.6842105 C22.61125,26.6842105 25.6225,26.6431579 26.82125,26.5747368 C28.02,26.4938756 28.60875,26.3197129 29.15125,25.3593301 C29.715,24.4101435 30,22.7456459 30,19.8495694 C30,19.8495694 30,19.8458373 30,19.8433493 C30,19.8433493 30,19.8408612 30,19.8396172 C30,16.9298565 29.715,15.277799 29.15,14.3186603 Z M17.5,23.5741627 L17.5,16.1100478 L23.75,19.8421053 L17.5,23.5741627 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

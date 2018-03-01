@@ -14,6 +14,16 @@ h3 {
 		text-align: center;
 }
 
+a {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
 p {
 	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
@@ -80,7 +90,7 @@ h4 {
 
 .banner .btn_sec {
 	float: right;
-	margin-top: 4em;
+	margin-top: 1.5rem;
 	width: 145px;
 	border: 2px solid #FF8B08;
 	border-radius: 35.5px;
@@ -94,21 +104,19 @@ h4 {
 	margin-left: 10px;
 }
 
-.banner .row .btn_sec i {
+.banner .btn_sec i {
 	height:19px;
 	width:18px;
 	background: url('../img/sprite_global_a.svg') 0px 0;
-	display: inline-block;
+	margin-left: 5px;
 }
 
-.banner .logo {
-	background: url('../img/sprite_global_a.svg') 0 -145px;
+.banner .container .logo {
+	background: url('../img/sprite_global_a.svg') 0 -143px;
 	width: 151px;
 	height: 74px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 3em;
-	margin-top: 1em;
 }
 
 .banner h2 {
@@ -122,22 +130,6 @@ h4 {
     height: 0px;
 }
 
-.banner a {
-	display: inline-block;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 1px solid #fff;
-}
-
-.banner .enlaces a:last-child {
-	 margin-left: 15px;
-
-}
-
-
 
 .banner h1 {
 		width: 60%;
@@ -148,7 +140,7 @@ h4 {
 		line-height: 53px;
 		text-align: center;
 		margin:0 auto;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 }
 
 .banner .enlaces {
@@ -159,18 +151,46 @@ h4 {
 	text-align: center;
 }
 
+.banner .enlaces a:last-child {
+	 margin-left: 15px;
+
+}
+
+.banner .container .enlaces a {
+	border-bottom: 1px solid #fff;
+
+}
+
 .banner .btn_video{
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	margin-bottom: 2rem;
-	text-align: center;
+	display: flex;
+	/*Para poder centrar un class*/
+	align-content: center;
+	justify-content: center;
+
+}
+
+.banner .btn_video i {
+	height:17px;
+	width:7px;
+	background: url(../img/sprite_global_a.svg) 0px -127px;
+	margin-right: 5px;
+}
+
+.banner .container .row .g12 .btn_video a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #FF8B08;
+	text-decoration: none;
 }
 
 .banner .btn_primario {
-	width: 170px;
+	width: 190px;
 	border-radius: 24px;
 	background-color: #FF8B08;
-	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5);
+	/*box-shadow: 0 1px 5px 0 rgba(0,0,0,0.5);*/
 	font-family: 'Lato', sans-serif;
     padding: 12px 5px;
     font-weight: 300;
@@ -178,29 +198,58 @@ h4 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 }
 
-.banner .btn_primario a{
+.banner .container .row .btn_primario a{
 	  border-bottom: 0px solid #fff;
-	  font-size: 18px;
+	  font-size: 14px;
+	  letter-spacing: 0.07rem;
+	  color: white;
 }
 
 
 
 .banner .btn_primario:hover{
 	background-color: #FF9C2B;
+	color: white;
+
+}
+
+.hero-scroll {
+	height: 8px;
+    width: 12px;
+    background: url(../img/sprite_global_a.svg) -45px -1px;
+    position: relative;
+    z-index: 15;
+    bottom: 2.625em;
+    left: 50%;
+}
+
+/*VIDEO*/
+
+
+video { 
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
+	filter:brightness(0.25);
 
 }
 
 
-
-
-
-
 .banner {
-	background-image: url('../img/Bitmap.png' );
-	background-size:contain;
+/*	background-image: url('../img/Bitmap.png' );
+*/	background-size:contain;
 	background-position:center;
 
   	-webkit-background-size: cover;
@@ -209,28 +258,50 @@ h4 {
  	 background-size: cover;
 }
 
+
+
 .description {
 	background: url('../img/path_a.svg') no-repeat;
-	margin-top: 4rem;
 	background-size: contain;
 	background-position:center center;
 	width: 100%;
-
-
+	background-color: white;
+	background-position-y: 9rem;
+	background-clip: border-box;
 }
 
 .description h3 {
 	width: 70%;
-	margin: 0.3rem auto 17rem;
+	margin: 0rem auto 10rem;
+}
 
+.description .container .g12 h3 {
+    margin-top:5rem;
+}
+
+#hacemos {
+	margin-top: 0rem;
+	background-color: #fff;
+}
+
+
+
+.container .g4 {
+	height: 230px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.container .g4:hover{
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .container .icon_jobmatch {
-	background: url('../img/sprite_global_a.svg') 0 -580px;
-	width: 93px;
+	background: url('../img/sprite_global_a.svg') 0 -690px	width: 93px;
 	height: 96px;
 	margin: 0 auto;
-
 }
 
 .container .icon_evaluation {
@@ -260,3 +331,35 @@ h4 {
 	color: white;
 }
 
+/*240 / 320 / 480 / 720 / 960 / 1200 */
+
+@media (max-width: 720px) {
+
+	.banner .btn_sec {
+		float: none;
+	}
+}
+
+@media (max-width: 720px) {
+
+	.banner h1 {
+		color: #FFFFFF;
+		width: 90%;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+		font-size: 2.2rem;
+		line-height: 53px;
+		text-align: center;
+		margin:0 auto;
+		margin-bottom: 15px;
+
+	}
+
+	.banner .enlaces {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	width: 80%;
+	text-align: center;
+}
+}

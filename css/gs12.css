@@ -1,7 +1,12 @@
+body {
+  overflow : hidden; overflow-y : scroll; 
+overflow : -moz-scrollbars-vertica
+}
+
 .container {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: 0 auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   
   .row {

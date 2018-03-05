@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1680px" height="216px" viewBox="0 0 1680 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+<svg width="1653px" height="123px" viewBox="0 0 1653 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
     <title>path_a</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="sprite_global_b" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="7,6" stroke-linecap="round">
-        <path d="M1680,0.675281481 C1501.51638,-13.2178211 1625.14844,223.976563 1340.85156,161.417564 C1056.55469,98.8585648 1043.1875,279.07951 859.632812,188.824219 C752.939243,136.362147 671.309738,127.252195 545.023438,145.511719 C435.015625,161.417564 386.211815,98.5689273 319.94489,98.5689273 C272.260649,98.5689273 252.326188,121.126538 259.65625,152.78125 C266.097656,180.59832 311.675781,191.039062 331.070312,161.417564 C347.813568,135.845391 334.869913,110.419328 300.963176,83.9102393 C243.571619,39.0401633 128.405469,4.95552704 0,32.5033876" id="path_a" stroke="#EBEBEB" stroke-width="2" transform="translate(840.000000, 107.371568) scale(-1, 1) translate(-840.000000, -107.371568) "></path>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="7,6" stroke-linecap="round">
+        <g id="sprite_global_b" stroke="#EBEBEB" stroke-width="2">
+            <path d="M1654.59375,0.445729055 C1492.08984,65.5432523 1368.96484,172.15934 1125.83594,76.046875 C952.874617,7.67269789 851.880051,77.6728175 725.59375,88.8133158 C615.585938,98.5177876 515.524738,49.7109375 449.257812,49.7109375 C401.573572,49.7109375 383.199219,78.6217461 383.199219,97.9433594 C383.199219,133.923012 434.91847,124.262232 430.556641,97.9433594 C426.927734,76.046875 408.609375,68.8203125 339.224609,79.5195313 C276.095655,89.254096 131.456907,95.8182655 0,1.27009514e-13" id="path_a" transform="translate(827.296875, 60.722055) scale(-1, 1) translate(-827.296875, -60.722055) "></path>
+        </g>
     </g>
 </svg>

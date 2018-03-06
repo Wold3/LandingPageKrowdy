@@ -1,6 +1,8 @@
 body {
-  overflow : hidden; overflow-y : scroll; 
-overflow : -moz-scrollbars-vertica
+
+  overflow : hidden;
+  overflow-y : scroll; 
+  overflow : -moz-scrollbars-vertica
 }
 
 .container {
@@ -149,7 +151,6 @@ overflow : -moz-scrollbars-vertica
   @media (max-width: 480px) {
     .container {
       width: 100%;
-      padding: 0 20px;
     }
   
     [class^="g"] {

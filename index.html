@@ -25,7 +25,7 @@
 
   <section class="banner">
     <div class="container">
-      <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+      <video class="video-background" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
       <source src="https://d2vly2ssb2pi9b.cloudfront.net/cdn/videos/video_krowdy_intro.webm" type="video/webm">
       <source src="https://d2vly2ssb2pi9b.cloudfront.net/cdn/videos/video_krowdy_intro.mp4" type="video/mp4">
       </video>
@@ -180,7 +180,8 @@
         <div class="container">
             <div class="row">
                 <div class="g6 form-section__left">
-                    <h2>The journey of<br>thousand miles<br>begins with one step</h2>
+                    <div class="logo-ornamental"><i></i></div>
+                    <h2>The journey<br>of thousand miles<br>begins with one step</h2>
                 </div>
                 <div class="g6 form-section__rigth">
                     <form action="">
@@ -196,36 +197,48 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row section__button">
                   <div class="button-send"><input type="submit"></div
             </div>
 
-        </div>
-    
-    <div class="line-footer"> <hr></div>
-   
-        
+        </div>        
     </section>
       
+          <div class="line-footer"><hr></div>
+
     <footer>
 
-        <ul>
-            <li><i class="twitter"><img src="img/twitter.svg" alt="facebook icon"></i>
-            </li>
-            <li><i class="facebook"><img src="img/facebook.svg" alt="facebook icon"></i>
-            </li>
-            <li><i class="youtube"><img src="img/youtube.svg" alt="facebook icon"></i>
-            </li>
-            <li><i class="instagram"><img src="img/instagram.svg" alt="facebook icon"></i>
-            </li>
-        </ul>
-        
-        <span>© 2018 Krowdy</span>
+      <div class="container">
+
+         <div class="row">
+                <div class="g6 footer-section__left">
+                      <ul>
+                          <li>  <a class="twitter" href=""></a>
+                          </li>
+                          <li>  <a class="facebook" href=""></a>
+                          </li>
+                          <li>  <a class="youtube" href=""></a>
+                          </li>
+                          <li>  <a class="instagram" href=""></a>
+                          </li>
+                          
+                         
+                      </ul>
+                </div>
+                 <div class="g6 footer-section__rigth">
+                     <div class="date"><span>© 2018 Krowdy</span></div>
+                         
+                </div>
+        </div>
+
+
+      </div> 
 
     </footer>
 
-
+    <div id="bottommenu" ></div>
 </body>
+
 <script type="text/javascript">
   window.addEventListener("scroll", function(){  
     var st = window.pageYOffset || document.documentElement.scrollBottom;  

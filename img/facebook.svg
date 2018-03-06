@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="8.49495785 17.9823073 0 17.9823073 0 8.7804878e-06 8.49495785 8.7804878e-06"></polygon>
+    </defs>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sprite_global_a" transform="translate(-41.000000, -43.000000)">
+            <g id="facebook" transform="translate(42.000000, 44.000000)">
+                <circle id="Oval-4-Copy" stroke="#3F4247" cx="20" cy="20" r="20"></circle>
+                <g id="Page-1" transform="translate(16.000000, 11.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M5.65236649,5.89219024 L5.65236649,4.34274146 C5.65236649,4.11019024 5.66331414,3.92992683 5.68538743,3.80269756 C5.70728272,3.67529268 5.75717016,3.54990732 5.83491623,3.42610244 C5.91226178,3.30242927 6.03775916,3.21703902 6.21087435,3.1697122 C6.38421204,3.12238537 6.6147356,3.09872195 6.90244503,3.09872195 L8.47289791,3.09872195 L8.47289791,0 L5.96214921,0 C4.50936126,0 3.46599738,0.340068293 2.83165707,1.02002927 C2.19767277,1.70034146 1.88059162,2.70223902 1.88059162,4.02633659 L1.88059162,5.89219024 L0,5.89219024 L0,8.9910878 L1.88041361,8.9910878 L1.88041361,17.9823073 L5.65236649,17.9823073 L5.65236649,8.99126341 L8.16311518,8.99126341 L8.4949712,5.89219024 L5.65236649,5.89219024 Z" id="Fill-1" fill="#3F4247" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -118,6 +118,8 @@ h4 {
 
 /*BANNER======================================================================================================================*/
 
+
+
 .banner .btn_sec {
 	float: right;
 	margin-top: 1.5rem;
@@ -553,13 +555,27 @@ video {
 	text-align: center;
 }
 
+.form-section__left .logo-ornamental {
+    margin-left: 199px;
+    margin-bottom: -59px;	
+
+}
+
+.form-section__left .logo-ornamental i{
+	height:89px;
+	width:116px;
+	background: url('../img/sprite_global_a.svg') 0px -481px;
+	display: inline-block;
+}
+
 .form-section__left{
-	margin-top: 40px;
+	margin-top: 80px;
 	margin-bottom: 40px;
 }
 
 .form-section__left h2{
 	text-align: left;
+	line-height: 1.2;
 }
 
 .form-section__rigth {
@@ -593,7 +609,12 @@ label, textarea {
 	font-size: 12px;
 	letter-spacing: 0.12rem;
 	color: #545B6C;
+}
 
+input {
+	font-family: Lato; sans-serif;
+	font-size: 18px;
+	color: #545B6C;
 }
 
 input[type=checkbox] {
@@ -610,22 +631,135 @@ input[type=submit] {
     margin-bottom: 6rem;
 }
 
-.button-send {
+.section__button {
+	width: 190px;
+	height: 46px;
 	margin: 0 auto;
-	display: inline-block;
-	text-align: center;
+	margin-bottom: 3rem;
 }
 
+.line-footer hr{
+	border: none;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+
+/*FOOTER======================================================================================================================*/
+
+footer .container .row .footer-section__left {
+
+}
+
+/*SOCIAL ICON*/
+
+footer .twitter {
+	height:42px;
+	width:42px;
+	background: url('../img/twitter.svg');
+	display: inline-block;
+}
+
+footer .twitter:hover {
+	height:42px;
+	width:42px;
+	background: url('../img/twitter_hover.svg')  no-repeat;
+	display: inline-block;
+}
+
+footer .facebook {
+	height:42px;
+	width:42px;
+	background: url('../img/facebook.svg');
+	display: inline-block;
+}
+
+footer .facebook:hover {
+	height:42px;
+	width:42px;
+	background: url('../img/facebook_hover.svg')  no-repeat;
+	display: inline-block;
+}
+
+footer .youtube {
+	height:42px;
+	width:42px;
+	background: url('../img/youtube.svg');
+	display: inline-block;
+}
+
+footer .youtube:hover {
+	height:42px;
+	width:42px;
+	background: url('../img/youtube_hover.svg')  no-repeat;
+	display: inline-block;
+}
+
+footer .instagram {
+	height:42px;
+	width:42px;
+	background: url('../img/instagram.svg');
+	display: inline-block;
+}
+
+footer .instagram:hover {
+	height:42px;
+	width:42px;
+	background: url('../img/instagram_hover.svg')  no-repeat;
+	display: inline-block;
+}
+
+
+
+footer .container .row .footer-section__left li{
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+
+
+footer .container .row .footer-section__rigth span{
+	margin-right: 0px;
+	font-family: 'Lato', sans-serif;
+	color: #545B6C;	
+}
+
+footer .date{
+	margin: 7% 0 0 0;
+    float: right;
+}
+
+footer .date span{
+
+}
+
+}
 /*240 / 320 / 480 / 720 / 960 / 1200 */
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 720px) {
 
 	.banner .btn_sec {
 		float: none;
 	}
-}
 
-@media (max-width: 720px) {
+	.banner .container {
+		width: 100%;
+	    overflow: hidden;
+	    overflow-y: scroll;
+	}
+
+	.banner video{
+		display: none;
+	}
 
 	.banner h1 {
 		color: #FFFFFF;
@@ -633,7 +767,7 @@ input[type=submit] {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
 		font-size: 2.2rem;
-		line-height: 53px;
+		line-height: 34px;
 		text-align: center;
 		margin:0 auto;
 		margin-bottom: 15px;
@@ -646,5 +780,8 @@ input[type=submit] {
 	margin-bottom: 40px;
 	width: 80%;
 	text-align: center;
+	}
+
 }
-}
+
+
